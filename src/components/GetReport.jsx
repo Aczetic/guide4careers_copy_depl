@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../assets/images/psychoBackground2.svg";
+import backgroundImage from "../assets/images/getReport/psychoBackground2.svg";
 import pic1 from "../assets/images/pic1.png"; // Assuming you have another image for the right side
 
 const GetReport = () => {

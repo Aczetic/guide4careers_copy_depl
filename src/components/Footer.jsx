@@ -1,5 +1,5 @@
 import React from "react";
-import emailFormSubmitButton from "../assets/images/emailFormSubmitButton.svg";
+import emailFormSubmitButton from "../assets/images/emailSubmit.svg";
 import randomShape from "../assets/images/randomShape.svg";
 import chatBoxImg from "../assets/images/chatBoxImg.svg";
 import Logo from "../assets/images/Logo.png";
@@ -41,7 +41,7 @@ const Footer = () => {
             <div
               className="w-16 h-8 bg-no-repeat bg-center "
               style={{
-                backgroundImage: `url(${emailFormSubmitButton}`,
+                backgroundImage: `url(${emailFormSubmitButton})`,
                 backgroundPosition: "50% 34%",
               }}
             ></div>

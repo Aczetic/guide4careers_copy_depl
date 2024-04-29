@@ -12,7 +12,7 @@ export default {
       screens: { mbl: "560px", cstmr: "800px", tbl: "1280px", lap: "10px" },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), { tailwindcss: {}, autoprefixer: {} }],
 
   // daisyUI config (optional - here are the default values)
   daisyui: {

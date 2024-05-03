@@ -1,0 +1,9 @@
+/* Ellipse 38 */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 150px;
+top: 533px;
+
+background: url(image.png);

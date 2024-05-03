@@ -6,7 +6,7 @@ const Body = () => {
     [
       {
         title: "Engineering",
-        imgUrl: "/src/assets/images/resources/engineering.png",
+        imgUrl: "/assets/resources/engineering.png",
       },
 
       {

@@ -116,3 +116,15 @@ p {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+/* This is the style for the particle animation shown at the banner */
+#tsparticles {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .MC {
+    margin-top: 50px;
+  }
+}

@@ -10,13 +10,13 @@ import illus3 from "../assets/images/empoweringYourFuture/illus3.svg";
 const CardData = () => {
   return (
     <>
-      <div className="mt-8 min-h-[47rem] h-[160vh] max-h-[61rem] cstmr:h-screen flex flex-col justify-center items-center gap-0 cstmr:gap-16 z-30 relative">
+      <div className="pt-8 min-h-[54rem] cstmr:min-h-[47rem] h-[160vh] max-h-[48rem] cstmr:h-screen flex flex-col justify-center items-center gap-0 cstmr:gap-16 z-30 relative">
         <div className=" h-fit flex justify-center relative items-center flex-col text-center">
           <h1 className="text-4xl font-bold mb-4">
             Empowering Your Future is our mission.
           </h1>
 
-          <p className="text-xl font-bold flex justify-center items-center flex-col text-center">
+          <p className="text-xl font-bold flex px-4 justify-center items-center flex-col text-center">
             Guide4Careers: Expert career counseling navigating you from high
             school to dream career & beyond.
           </p>
@@ -30,6 +30,7 @@ const CardData = () => {
             imageUrl={illus1}
             buttonText="Explore"
             style="bg-purple-300 "
+            goto = "/exploreschool"
           />
 
           <Card
@@ -39,6 +40,7 @@ const CardData = () => {
             imageUrl={illus2}
             buttonText="Explore"
             style="bg-red-300"
+            goto = "/explore"
           />
 
           <Card
@@ -48,6 +50,7 @@ const CardData = () => {
             imageUrl={illus3}
             buttonText="Explore"
             style="bg-yellow-200 "
+            goto = "/explorecollege"
           />
         </div>
       </div>

@@ -23,7 +23,9 @@ const Navbar = () => {
       <div className="max-w-screen-2xl container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <img src={Logo} alt="Logo" className="h-8 md:h-10 mr-2" />
+           <Link to={'/'}>
+           <img src={Logo} alt="Logo" className="h-8 md:h-10 mr-2" />
+           </Link>
           </div>
 
           {/* Mobile Menu Button */}

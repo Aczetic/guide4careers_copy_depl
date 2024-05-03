@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../assets/App.css";
 
-const Reviewcard = () => {
+const Reviewcard = ({explore}) => {
   const gradientColor = "rgba(195, 211, 255, 0.4)";
   const gradientStyle = {
     background: `linear-gradient(to right, ${gradientColor}, white)`,
@@ -54,9 +54,9 @@ const Reviewcard = () => {
   };
   return (
     <>
-      <div className="flex flex-col justify-around h-fit max-h-[32rem]  mt-16">
+      <div className="flex flex-col justify-around h-fit max-h-[32rem]  pb-16">
         <div className="flex justify-center items-center flex-col text-center mt-0 sm:-mt-0 md:-mt-0 md:mb-0 z-10 ">
-          <h1 className="text-4xl font-bold mb-10">Our Success Stories!</h1>
+          <h1 className="text-4xl font-bold mb-10">{explore? 'Listen From Our Students!' : 'Our Success Stories!'}</h1>
         </div>
         <div style={gradientStyle} className="sizing-border-box">
           <div className="w-3/4 m-auto">

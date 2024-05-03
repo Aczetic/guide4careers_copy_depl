@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-  content: [
-    "./index.html",
-    "./src/components/*.{js,ts,jsx,tsx}",
-    "./src/assets/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: { poppins: ["Poppins", "sans-serif"] },
-      screens: { mbl: "560px", cstmr: "800px", tbl: "1280px", lap: "10px" },
+      screens: {
+        mbl: "560px",
+        cstmr: "800px",
+        tblets: "1025px",
+        tbl: "1280px",
+        lap: "10px",
+      },
     },
   },
-  plugins: [require("daisyui"), { tailwindcss: {}, autoprefixer: {} }],
+  plugins: [require("daisyui")],
 
   // daisyUI config (optional - here are the default values)
   daisyui: {

@@ -12,6 +12,9 @@ import {
   Route,
   BrowserRouter,
 } from "react-router-dom";
+import Explore from "./pages/Explore";
+import ExploreCollege from "./pages/ExploreCollege";
+import ExploreSchool from "./pages/ExploreSchool";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +25,9 @@ function App() {
         <Route path="/institutes" element={<ForInstitutes />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/explore" element={<Explore/>}/>
+        <Route path="/explorecollege" element={<ExploreCollege/>}/>
+        <Route path="/exploreschool" element={<ExploreSchool/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,0 +1,16 @@
+/* Define the transition for the content container */
+.faq-content {
+    transition: max-height 0.4s ease-in-out;
+  }
+  
+  /* Define classes to control the height and opacity */
+  .faq-content-closed {
+    max-height: 0;
+    opacity: 0;
+  }
+  
+  .faq-content-open {
+    max-height: 1000px; /* Set a value higher than the expected height */
+    opacity: 1;
+  }
+  
